@@ -16,13 +16,18 @@
 		60946B341748334600EFD1AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B331748334600EFD1AE /* Default.png */; };
 		60946B361748334600EFD1AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B351748334600EFD1AE /* Default@2x.png */; };
 		60946B381748334600EFD1AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B371748334600EFD1AE /* Default-568h@2x.png */; };
-		60946B3B1748334600EFD1AE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60946B391748334600EFD1AE /* MainStoryboard.storyboard */; };
+		60946B3B1748334600EFD1AE /* iPhone-StoryBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60946B391748334600EFD1AE /* iPhone-StoryBoard.xib */; };
 		60946B3E1748334600EFD1AE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946B3D1748334600EFD1AE /* FirstViewController.m */; };
 		60946B401748334600EFD1AE /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B3F1748334600EFD1AE /* first.png */; };
 		60946B421748334600EFD1AE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B411748334600EFD1AE /* first@2x.png */; };
 		60946B451748334600EFD1AE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946B441748334600EFD1AE /* SecondViewController.m */; };
 		60946B471748334600EFD1AE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B461748334600EFD1AE /* second.png */; };
 		60946B491748334600EFD1AE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B481748334600EFD1AE /* second@2x.png */; };
+		60946BED1748388600EFD1AE /* ExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946BEC1748388600EFD1AE /* ExchangeRate.m */; };
+		60946BF01748481100EFD1AE /* BitcoinGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946BEF1748481100EFD1AE /* BitcoinGraph.m */; };
+		60946BF2174A301D00EFD1AE /* BitCoinNotifier_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946BF1174A301D00EFD1AE /* BitCoinNotifier_57x57.png */; };
+		60946BF4174A302500EFD1AE /* BitCoinNotifier_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946BF3174A302500EFD1AE /* BitCoinNotifier_114x114.png */; };
+		60946BF7174A342B00EFD1AE /* PCLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946BF6174A342B00EFD1AE /* PCLineChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +44,7 @@
 		60946B331748334600EFD1AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		60946B351748334600EFD1AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		60946B371748334600EFD1AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		60946B3A1748334600EFD1AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		60946B3A1748334600EFD1AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/iPhone-StoryBoard.xib"; sourceTree = "<group>"; };
 		60946B3C1748334600EFD1AE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		60946B3D1748334600EFD1AE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		60946B3F1748334600EFD1AE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -48,6 +53,14 @@
 		60946B441748334600EFD1AE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		60946B461748334600EFD1AE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		60946B481748334600EFD1AE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		60946BEB1748388600EFD1AE /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
+		60946BEC1748388600EFD1AE /* ExchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRate.m; sourceTree = "<group>"; };
+		60946BEE1748481000EFD1AE /* BitcoinGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitcoinGraph.h; sourceTree = "<group>"; };
+		60946BEF1748481100EFD1AE /* BitcoinGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitcoinGraph.m; sourceTree = "<group>"; };
+		60946BF1174A301D00EFD1AE /* BitCoinNotifier_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BitCoinNotifier_57x57.png; sourceTree = "<group>"; };
+		60946BF3174A302500EFD1AE /* BitCoinNotifier_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BitCoinNotifier_114x114.png; sourceTree = "<group>"; };
+		60946BF5174A342B00EFD1AE /* PCLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCLineChartView.h; sourceTree = "<group>"; };
+		60946BF6174A342B00EFD1AE /* PCLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,8 @@
 		60946B151748334500EFD1AE = {
 			isa = PBXGroup;
 			children = (
+				60946BF3174A302500EFD1AE /* BitCoinNotifier_114x114.png */,
+				60946BF1174A301D00EFD1AE /* BitCoinNotifier_57x57.png */,
 				60946B271748334600EFD1AE /* BitCoinNotifier */,
 				60946B201748334600EFD1AE /* Frameworks */,
 				60946B1F1748334600EFD1AE /* Products */,
@@ -94,9 +109,11 @@
 		60946B271748334600EFD1AE /* BitCoinNotifier */ = {
 			isa = PBXGroup;
 			children = (
+				60946BEA1748385600EFD1AE /* Model */,
+				60946BD91748383500EFD1AE /* iOSPlot */,
 				60946B301748334600EFD1AE /* AppDelegate.h */,
 				60946B311748334600EFD1AE /* AppDelegate.m */,
-				60946B391748334600EFD1AE /* MainStoryboard.storyboard */,
+				60946B391748334600EFD1AE /* iPhone-StoryBoard.xib */,
 				60946B3C1748334600EFD1AE /* FirstViewController.h */,
 				60946B3D1748334600EFD1AE /* FirstViewController.m */,
 				60946B3F1748334600EFD1AE /* first.png */,
@@ -122,6 +139,27 @@
 				60946B371748334600EFD1AE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60946BD91748383500EFD1AE /* iOSPlot */ = {
+			isa = PBXGroup;
+			children = (
+				60946BF5174A342B00EFD1AE /* PCLineChartView.h */,
+				60946BF6174A342B00EFD1AE /* PCLineChartView.m */,
+				60946BEE1748481000EFD1AE /* BitcoinGraph.h */,
+				60946BEF1748481100EFD1AE /* BitcoinGraph.m */,
+			);
+			name = iOSPlot;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		60946BEA1748385600EFD1AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60946BEB1748388600EFD1AE /* ExchangeRate.h */,
+				60946BEC1748388600EFD1AE /* ExchangeRate.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,11 +217,13 @@
 				60946B341748334600EFD1AE /* Default.png in Resources */,
 				60946B361748334600EFD1AE /* Default@2x.png in Resources */,
 				60946B381748334600EFD1AE /* Default-568h@2x.png in Resources */,
-				60946B3B1748334600EFD1AE /* MainStoryboard.storyboard in Resources */,
+				60946B3B1748334600EFD1AE /* iPhone-StoryBoard.xib in Resources */,
 				60946B401748334600EFD1AE /* first.png in Resources */,
 				60946B421748334600EFD1AE /* first@2x.png in Resources */,
 				60946B471748334600EFD1AE /* second.png in Resources */,
 				60946B491748334600EFD1AE /* second@2x.png in Resources */,
+				60946BF2174A301D00EFD1AE /* BitCoinNotifier_57x57.png in Resources */,
+				60946BF4174A302500EFD1AE /* BitCoinNotifier_114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +238,9 @@
 				60946B321748334600EFD1AE /* AppDelegate.m in Sources */,
 				60946B3E1748334600EFD1AE /* FirstViewController.m in Sources */,
 				60946B451748334600EFD1AE /* SecondViewController.m in Sources */,
+				60946BED1748388600EFD1AE /* ExchangeRate.m in Sources */,
+				60946BF01748481100EFD1AE /* BitcoinGraph.m in Sources */,
+				60946BF7174A342B00EFD1AE /* PCLineChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,12 +255,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		60946B391748334600EFD1AE /* MainStoryboard.storyboard */ = {
+		60946B391748334600EFD1AE /* iPhone-StoryBoard.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				60946B3A1748334600EFD1AE /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = "iPhone-StoryBoard.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
