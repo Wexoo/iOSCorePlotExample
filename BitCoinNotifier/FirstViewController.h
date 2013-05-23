@@ -10,6 +10,5 @@
 #import "PCLineChartView.h"
 
 @interface FirstViewController : UIViewController
-//@property (strong, nonatomic) IBOutlet PCLineChartView *lineChartView;
-@property (strong, nonatomic) IBOutlet UIScrollView *scrollViewContainer;
+
 @end

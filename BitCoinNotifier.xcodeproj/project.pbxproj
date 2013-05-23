@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6052FA3F174E8E6F009111CF /* BitCoinGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6052FA3E174E8E6F009111CF /* BitCoinGraphView.m */; };
 		60946B221748334600EFD1AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60946B211748334600EFD1AE /* UIKit.framework */; };
 		60946B241748334600EFD1AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60946B231748334600EFD1AE /* Foundation.framework */; };
 		60946B261748334600EFD1AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60946B251748334600EFD1AE /* CoreGraphics.framework */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6052FA3D174E8E6F009111CF /* BitCoinGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitCoinGraphView.h; path = BitCoinNotifier/BitCoinGraphView.h; sourceTree = SOURCE_ROOT; };
+		6052FA3E174E8E6F009111CF /* BitCoinGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BitCoinGraphView.m; path = BitCoinNotifier/BitCoinGraphView.m; sourceTree = SOURCE_ROOT; };
 		60946B1E1748334600EFD1AE /* BitCoinNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCoinNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60946B211748334600EFD1AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		60946B231748334600EFD1AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +80,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6052FA3B174E8DBF009111CF /* ECGraph */ = {
+			isa = PBXGroup;
+			children = (
+				60946BEE1748481000EFD1AE /* BitcoinGraph.h */,
+				60946BEF1748481100EFD1AE /* BitcoinGraph.m */,
+			);
+			name = ECGraph;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6052FA3C174E8DD6009111CF /* Graph Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6052FA3B174E8DBF009111CF /* ECGraph */,
+				60946BD91748383500EFD1AE /* iOSPlot */,
+			);
+			name = "Graph Frameworks";
+			sourceTree = "<group>";
+		};
 		60946B151748334500EFD1AE = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +131,8 @@
 		60946B271748334600EFD1AE /* BitCoinNotifier */ = {
 			isa = PBXGroup;
 			children = (
+				6052FA3C174E8DD6009111CF /* Graph Frameworks */,
 				60946BEA1748385600EFD1AE /* Model */,
-				60946BD91748383500EFD1AE /* iOSPlot */,
 				60946B301748334600EFD1AE /* AppDelegate.h */,
 				60946B311748334600EFD1AE /* AppDelegate.m */,
 				60946B391748334600EFD1AE /* iPhone-StoryBoard.xib */,
@@ -146,8 +168,8 @@
 			children = (
 				60946BF5174A342B00EFD1AE /* PCLineChartView.h */,
 				60946BF6174A342B00EFD1AE /* PCLineChartView.m */,
-				60946BEE1748481000EFD1AE /* BitcoinGraph.h */,
-				60946BEF1748481100EFD1AE /* BitcoinGraph.m */,
+				6052FA3D174E8E6F009111CF /* BitCoinGraphView.h */,
+				6052FA3E174E8E6F009111CF /* BitCoinGraphView.m */,
 			);
 			name = iOSPlot;
 			path = Core;
@@ -241,6 +263,7 @@
 				60946BED1748388600EFD1AE /* ExchangeRate.m in Sources */,
 				60946BF01748481100EFD1AE /* BitcoinGraph.m in Sources */,
 				60946BF7174A342B00EFD1AE /* PCLineChartView.m in Sources */,
+				6052FA3F174E8E6F009111CF /* BitCoinGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +386,7 @@
 				60946B4E1748334600EFD1AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
