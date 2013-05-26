@@ -9,77 +9,136 @@
             <objects>
                 <viewController title="Pie Chart" id="2" customClass="PieChartVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="568" height="251"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Test graph" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="ili-ur-tS5"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EiL-ND-O3g">
+                                <items>
+                                    <barButtonItem title="Theme" id="Oye-s8-pSJ">
+                                        <connections>
+                                            <action selector="themeTapped:" destination="2" id="yrj-BC-NQO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="20" firstAttribute="top" secondItem="16" secondAttribute="top" constant="20" symbolic="YES" type="default" id="FKe-hO-WZT"/>
-                            <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Qxj-1L-2Yh"/>
-                            <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
+                            <constraint firstItem="EiL-ND-O3g" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="BZO-HU-7jo"/>
+                            <constraint firstItem="EiL-ND-O3g" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="SoK-0n-m6F"/>
+                            <constraint firstItem="EiL-ND-O3g" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="zen-5K-7dE"/>
                         </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pie Chart" image="first.png" id="7"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="themeButton" destination="Oye-s8-pSJ" id="L36-LK-2da"/>
+                        <outlet property="toolbar" destination="EiL-ND-O3g" id="TxC-cc-7A8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="31" y="927"/>
+            <point key="canvasLocation" x="673" y="-64"/>
         </scene>
         <!--Scatter PlotVC - Scatter Plot-->
         <scene sceneID="Z94-Dl-ChU">
             <objects>
                 <viewController title="Scatter Plot" id="zFC-jD-7Ol" customClass="ScatterPlotVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TLj-in-Llv">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="568" height="251"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Scatter Plot" id="zM0-yt-kaY"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zII-4H-h3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="719" y="927"/>
+            <point key="canvasLocation" x="673" y="769"/>
         </scene>
         <!--Bar GraphVC - Bar Graph-->
         <scene sceneID="13">
             <objects>
                 <viewController title="Bar Graph" id="3" customClass="BarGraphVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <rect key="frame" x="0.0" y="20" width="568" height="251"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Test history" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VLn-ey-pH0">
+                                <connections>
+                                    <action selector="aaplSwitched:" destination="3" eventType="valueChanged" id="Ha1-Fg-bw3"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tyl-j3-IdR">
+                                <connections>
+                                    <action selector="googSwitched:" destination="3" eventType="valueChanged" id="yQy-ps-bvr"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GGv-as-w54">
+                                <connections>
+                                    <action selector="msftSwitched:" destination="3" eventType="valueChanged" id="7mI-Op-Vwb"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="AAPL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4M7-lI-iYT">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="Km9-VF-pwF"/>
+                                    <constraint firstAttribute="width" constant="51" id="ZeU-iF-ZZ4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="GOOG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bW-By-slq">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="2lw-yO-SH2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="MSFT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rc6-7s-CVN">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58" id="pBn-FX-cjI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2zS-WG-1Ya" customClass="CPTGraphHostingView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="22" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0q6-IA-e8m"/>
-                            <constraint firstItem="22" firstAttribute="top" secondItem="17" secondAttribute="top" constant="20" symbolic="YES" type="default" id="9RP-Mm-5Pa"/>
-                            <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
+                            <constraint firstItem="4M7-lI-iYT" firstAttribute="baseline" secondItem="2bW-By-slq" secondAttribute="baseline" type="default" id="1yX-aH-9uk"/>
+                            <constraint firstItem="2bW-By-slq" firstAttribute="centerY" secondItem="VLn-ey-pH0" secondAttribute="centerY" type="default" id="3D3-73-avQ"/>
+                            <constraint firstItem="GGv-as-w54" firstAttribute="leading" secondItem="Rc6-7s-CVN" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="8LW-U7-nmI"/>
+                            <constraint firstItem="VLn-ey-pH0" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="95" id="HIZ-O2-cIP"/>
+                            <constraint firstItem="tyl-j3-IdR" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="Ldc-7i-y7D"/>
+                            <constraint firstItem="2zS-WG-1Ya" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="Lms-f0-UZD"/>
+                            <constraint firstItem="GGv-as-w54" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="401" id="M2W-Vz-RWx"/>
+                            <constraint firstItem="4M7-lI-iYT" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="30" id="NIM-Va-8GW"/>
+                            <constraint firstItem="2bW-By-slq" firstAttribute="baseline" secondItem="Rc6-7s-CVN" secondAttribute="baseline" type="default" id="P3Q-ya-Mcl"/>
+                            <constraint firstItem="GGv-as-w54" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="R9D-Wm-W1n"/>
+                            <constraint firstItem="VLn-ey-pH0" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="W9K-C5-vX0"/>
+                            <constraint firstItem="2bW-By-slq" firstAttribute="leading" secondItem="VLn-ey-pH0" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="aFp-my-X6K"/>
+                            <constraint firstItem="2zS-WG-1Ya" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="kK2-tq-jE3"/>
+                            <constraint firstItem="2zS-WG-1Ya" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="kMY-L8-HMR"/>
+                            <constraint firstItem="2zS-WG-1Ya" firstAttribute="top" secondItem="4M7-lI-iYT" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oDU-2C-YUq"/>
+                            <constraint firstItem="tyl-j3-IdR" firstAttribute="leading" secondItem="2bW-By-slq" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="vE3-a5-60E"/>
                         </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Bar Graph" id="6" userLabel="Graph"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="hostView" destination="2zS-WG-1Ya" id="ubN-mZ-JBB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="374" y="927"/>
+            <point key="canvasLocation" x="673" y="352"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -109,12 +168,26 @@
     <classes>
         <class className="BarGraphVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BarGraphVC.h"/>
+            <relationships>
+                <relationship kind="action" name="aaplSwitched:"/>
+                <relationship kind="action" name="googSwitched:"/>
+                <relationship kind="action" name="msftSwitched:"/>
+                <relationship kind="outlet" name="hostView" candidateClass="CPTGraphHostingView"/>
+            </relationships>
+        </class>
+        <class className="CPTGraphHostingView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CPTGraphHostingView.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
         <class className="PieChartVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PieChartVC.h"/>
+            <relationships>
+                <relationship kind="action" name="themeTapped:"/>
+                <relationship kind="outlet" name="themeButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
+            </relationships>
         </class>
         <class className="ScatterPlotVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScatterPlotVC.h"/>

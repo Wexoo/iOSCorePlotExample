@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PieChartVC : UIViewController
-
+@interface PieChartVC : UIViewController <CPTPlotDataSource, UIActionSheetDelegate>
 @end

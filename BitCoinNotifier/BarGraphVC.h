@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BarGraphVC : UIViewController
+@interface BarGraphVC : UIViewController <CPTBarPlotDataSource, CPTBarPlotDelegate>
 
 @end

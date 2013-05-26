@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScatterPlotVC : UIViewController
+@interface ScatterPlotVC : UIViewController <CPTPlotDataSource>
+
+@property (nonatomic, strong) CPTGraphHostingView *hostView;
 
 @end
