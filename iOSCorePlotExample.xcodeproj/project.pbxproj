@@ -13,6 +13,7 @@
 		6052FA9A174ED046009111CF /* CPDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6052FA97174ED046009111CF /* CPDConstants.m */; };
 		6052FA9B174ED046009111CF /* CPDStockPriceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6052FA99174ED046009111CF /* CPDStockPriceStore.m */; };
 		6052FA9E174ED5F8009111CF /* ScatterPlotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6052FA9D174ED5F8009111CF /* ScatterPlotVC.m */; };
+		606ED2031752BF57007D02E7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 606ED2021752BF57007D02E7 /* logo.png */; };
 		60946B221748334600EFD1AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60946B211748334600EFD1AE /* UIKit.framework */; };
 		60946B241748334600EFD1AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60946B231748334600EFD1AE /* Foundation.framework */; };
 		60946B261748334600EFD1AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60946B251748334600EFD1AE /* CoreGraphics.framework */; };
@@ -31,8 +32,6 @@
 		60946B491748334600EFD1AE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946B481748334600EFD1AE /* second@2x.png */; };
 		60946BED1748388600EFD1AE /* ExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946BEC1748388600EFD1AE /* ExchangeRate.m */; };
 		60946BF01748481100EFD1AE /* BitcoinGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946BEF1748481100EFD1AE /* BitcoinGraph.m */; };
-		60946BF2174A301D00EFD1AE /* BitCoinNotifier_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946BF1174A301D00EFD1AE /* BitCoinNotifier_57x57.png */; };
-		60946BF4174A302500EFD1AE /* BitCoinNotifier_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 60946BF3174A302500EFD1AE /* BitCoinNotifier_114x114.png */; };
 		60946BF7174A342B00EFD1AE /* PCLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60946BF6174A342B00EFD1AE /* PCLineChartView.m */; };
 /* End PBXBuildFile section */
 
@@ -124,14 +123,15 @@
 		6052FA99174ED046009111CF /* CPDStockPriceStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDStockPriceStore.m; sourceTree = "<group>"; };
 		6052FA9C174ED5F8009111CF /* ScatterPlotVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScatterPlotVC.h; sourceTree = "<group>"; };
 		6052FA9D174ED5F8009111CF /* ScatterPlotVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScatterPlotVC.m; sourceTree = "<group>"; };
-		60946B1E1748334600EFD1AE /* BitCoinNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitCoinNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		606ED2021752BF57007D02E7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		60946B1E1748334600EFD1AE /* iOSCorePlotExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCorePlotExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60946B211748334600EFD1AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		60946B231748334600EFD1AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60946B251748334600EFD1AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		60946B291748334600EFD1AE /* BitCoinNotifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitCoinNotifier-Info.plist"; sourceTree = "<group>"; };
+		60946B291748334600EFD1AE /* iOSCorePlotExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSCorePlotExample-Info.plist"; sourceTree = "<group>"; };
 		60946B2B1748334600EFD1AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60946B2D1748334600EFD1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60946B2F1748334600EFD1AE /* BitCoinNotifier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitCoinNotifier-Prefix.pch"; sourceTree = "<group>"; };
+		60946B2F1748334600EFD1AE /* iOSCorePlotExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSCorePlotExample-Prefix.pch"; sourceTree = "<group>"; };
 		60946B301748334600EFD1AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60946B311748334600EFD1AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		60946B331748334600EFD1AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -150,8 +150,6 @@
 		60946BEC1748388600EFD1AE /* ExchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRate.m; sourceTree = "<group>"; };
 		60946BEE1748481000EFD1AE /* BitcoinGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitcoinGraph.h; sourceTree = "<group>"; };
 		60946BEF1748481100EFD1AE /* BitcoinGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitcoinGraph.m; sourceTree = "<group>"; };
-		60946BF1174A301D00EFD1AE /* BitCoinNotifier_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BitCoinNotifier_57x57.png; sourceTree = "<group>"; };
-		60946BF3174A302500EFD1AE /* BitCoinNotifier_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BitCoinNotifier_114x114.png; sourceTree = "<group>"; };
 		60946BF5174A342B00EFD1AE /* PCLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCLineChartView.h; sourceTree = "<group>"; };
 		60946BF6174A342B00EFD1AE /* PCLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -315,10 +313,9 @@
 		60946B151748334500EFD1AE = {
 			isa = PBXGroup;
 			children = (
+				606ED2021752BF57007D02E7 /* logo.png */,
 				6052FA91174E91FC009111CF /* QuartzCore.framework */,
-				60946BF3174A302500EFD1AE /* BitCoinNotifier_114x114.png */,
-				60946BF1174A301D00EFD1AE /* BitCoinNotifier_57x57.png */,
-				60946B271748334600EFD1AE /* BitCoinNotifier */,
+				60946B271748334600EFD1AE /* iOSCorePlotExample */,
 				60946B201748334600EFD1AE /* Frameworks */,
 				60946B1F1748334600EFD1AE /* Products */,
 			);
@@ -327,7 +324,7 @@
 		60946B1F1748334600EFD1AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60946B1E1748334600EFD1AE /* BitCoinNotifier.app */,
+				60946B1E1748334600EFD1AE /* iOSCorePlotExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,7 +339,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		60946B271748334600EFD1AE /* BitCoinNotifier */ = {
+		60946B271748334600EFD1AE /* iOSCorePlotExample */ = {
 			isa = PBXGroup;
 			children = (
 				6052FA94174ED009009111CF /* Resources */,
@@ -364,16 +361,17 @@
 				60946B481748334600EFD1AE /* second@2x.png */,
 				60946B281748334600EFD1AE /* Supporting Files */,
 			);
+			name = iOSCorePlotExample;
 			path = BitCoinNotifier;
 			sourceTree = "<group>";
 		};
 		60946B281748334600EFD1AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				60946B291748334600EFD1AE /* BitCoinNotifier-Info.plist */,
+				60946B291748334600EFD1AE /* iOSCorePlotExample-Info.plist */,
 				60946B2A1748334600EFD1AE /* InfoPlist.strings */,
 				60946B2D1748334600EFD1AE /* main.m */,
-				60946B2F1748334600EFD1AE /* BitCoinNotifier-Prefix.pch */,
+				60946B2F1748334600EFD1AE /* iOSCorePlotExample-Prefix.pch */,
 				60946B331748334600EFD1AE /* Default.png */,
 				60946B351748334600EFD1AE /* Default@2x.png */,
 				60946B371748334600EFD1AE /* Default-568h@2x.png */,
@@ -405,9 +403,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60946B1D1748334500EFD1AE /* BitCoinNotifier */ = {
+		60946B1D1748334500EFD1AE /* iOSCorePlotExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60946B4C1748334600EFD1AE /* Build configuration list for PBXNativeTarget "BitCoinNotifier" */;
+			buildConfigurationList = 60946B4C1748334600EFD1AE /* Build configuration list for PBXNativeTarget "iOSCorePlotExample" */;
 			buildPhases = (
 				60946B1A1748334500EFD1AE /* Sources */,
 				60946B1B1748334500EFD1AE /* Frameworks */,
@@ -417,9 +415,9 @@
 			);
 			dependencies = (
 			);
-			name = BitCoinNotifier;
+			name = iOSCorePlotExample;
 			productName = BitCoinNotifier;
-			productReference = 60946B1E1748334600EFD1AE /* BitCoinNotifier.app */;
+			productReference = 60946B1E1748334600EFD1AE /* iOSCorePlotExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -431,7 +429,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Philipp Weixlbaumer";
 			};
-			buildConfigurationList = 60946B191748334500EFD1AE /* Build configuration list for PBXProject "BitCoinNotifier" */;
+			buildConfigurationList = 60946B191748334500EFD1AE /* Build configuration list for PBXProject "iOSCorePlotExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -443,7 +441,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60946B1D1748334500EFD1AE /* BitCoinNotifier */,
+				60946B1D1748334500EFD1AE /* iOSCorePlotExample */,
 			);
 		};
 /* End PBXProject section */
@@ -462,8 +460,7 @@
 				60946B421748334600EFD1AE /* first@2x.png in Resources */,
 				60946B471748334600EFD1AE /* second.png in Resources */,
 				60946B491748334600EFD1AE /* second@2x.png in Resources */,
-				60946BF2174A301D00EFD1AE /* BitCoinNotifier_57x57.png in Resources */,
-				60946BF4174A302500EFD1AE /* BitCoinNotifier_114x114.png in Resources */,
+				606ED2031752BF57007D02E7 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,14 +567,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BitCoinNotifier/BitCoinNotifier-Prefix.pch";
-				INFOPLIST_FILE = "BitCoinNotifier/BitCoinNotifier-Info.plist";
+				GCC_PREFIX_HEADER = "BitCoinNotifier/iOSCorePlotExample-Prefix.pch";
+				INFOPLIST_FILE = "BitCoinNotifier/iOSCorePlotExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/BitCoinNotifier\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iOSCorePlotExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -586,14 +583,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BitCoinNotifier/BitCoinNotifier-Prefix.pch";
-				INFOPLIST_FILE = "BitCoinNotifier/BitCoinNotifier-Info.plist";
+				GCC_PREFIX_HEADER = "BitCoinNotifier/iOSCorePlotExample-Prefix.pch";
+				INFOPLIST_FILE = "BitCoinNotifier/iOSCorePlotExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/BitCoinNotifier\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iOSCorePlotExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -601,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60946B191748334500EFD1AE /* Build configuration list for PBXProject "BitCoinNotifier" */ = {
+		60946B191748334500EFD1AE /* Build configuration list for PBXProject "iOSCorePlotExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60946B4A1748334600EFD1AE /* Debug */,
@@ -610,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60946B4C1748334600EFD1AE /* Build configuration list for PBXNativeTarget "BitCoinNotifier" */ = {
+		60946B4C1748334600EFD1AE /* Build configuration list for PBXNativeTarget "iOSCorePlotExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60946B4D1748334600EFD1AE /* Debug */,
