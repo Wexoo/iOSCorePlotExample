@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOSCorePlotExample.xcodeproj">
+      location = "self:BitCoinNotifier.xcodeproj">
    </FileRef>
 </Workspace>

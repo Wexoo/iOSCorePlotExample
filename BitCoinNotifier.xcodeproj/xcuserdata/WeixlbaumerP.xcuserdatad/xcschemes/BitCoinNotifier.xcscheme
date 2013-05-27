@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "60946B1D1748334500EFD1AE"
                BuildableName = "BitCoinNotifier.app"
-               BlueprintName = "iOSCorePlotExample"
-               ReferencedContainer = "container:iOSCorePlotExample.xcodeproj">
+               BlueprintName = "BitCoinNotifier"
+               ReferencedContainer = "container:BitCoinNotifier.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60946B1D1748334500EFD1AE"
             BuildableName = "BitCoinNotifier.app"
-            BlueprintName = "iOSCorePlotExample"
-            ReferencedContainer = "container:iOSCorePlotExample.xcodeproj">
+            BlueprintName = "BitCoinNotifier"
+            ReferencedContainer = "container:BitCoinNotifier.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60946B1D1748334500EFD1AE"
             BuildableName = "BitCoinNotifier.app"
-            BlueprintName = "iOSCorePlotExample"
-            ReferencedContainer = "container:iOSCorePlotExample.xcodeproj">
+            BlueprintName = "BitCoinNotifier"
+            ReferencedContainer = "container:BitCoinNotifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60946B1D1748334500EFD1AE"
             BuildableName = "BitCoinNotifier.app"
-            BlueprintName = "iOSCorePlotExample"
-            ReferencedContainer = "container:iOSCorePlotExample.xcodeproj">
+            BlueprintName = "BitCoinNotifier"
+            ReferencedContainer = "container:BitCoinNotifier.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
