@@ -36,8 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6052FA3D174E8E6F009111CF /* BitCoinGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitCoinGraphView.h; path = BitCoinNotifier/BitCoinGraphView.h; sourceTree = SOURCE_ROOT; };
-		6052FA3E174E8E6F009111CF /* BitCoinGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BitCoinGraphView.m; path = BitCoinNotifier/BitCoinGraphView.m; sourceTree = SOURCE_ROOT; };
+		6052FA3D174E8E6F009111CF /* BitCoinGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitCoinGraphView.h; path = iOSCorePlotExample/BitCoinGraphView.h; sourceTree = SOURCE_ROOT; };
+		6052FA3E174E8E6F009111CF /* BitCoinGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BitCoinGraphView.m; path = iOSCorePlotExample/BitCoinGraphView.m; sourceTree = SOURCE_ROOT; };
 		6052FA42174E9145009111CF /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
 		6052FA43174E9145009111CF /* CPTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimation.h; sourceTree = "<group>"; };
 		6052FA44174E9145009111CF /* CPTAnimationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimationOperation.h; sourceTree = "<group>"; };
@@ -315,7 +315,7 @@
 			children = (
 				609D86DC1753F18C00812320 /* logo.png */,
 				6052FA91174E91FC009111CF /* QuartzCore.framework */,
-				60946B271748334600EFD1AE /* BitCoinNotifier */,
+				60946B271748334600EFD1AE /* iOSCorePlotExample */,
 				60946B201748334600EFD1AE /* Frameworks */,
 				60946B1F1748334600EFD1AE /* Products */,
 			);
@@ -339,7 +339,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		60946B271748334600EFD1AE /* BitCoinNotifier */ = {
+		60946B271748334600EFD1AE /* iOSCorePlotExample */ = {
 			isa = PBXGroup;
 			children = (
 				6052FA94174ED009009111CF /* Resources */,
@@ -361,7 +361,7 @@
 				60946B481748334600EFD1AE /* second@2x.png */,
 				60946B281748334600EFD1AE /* Supporting Files */,
 			);
-			path = BitCoinNotifier;
+			path = iOSCorePlotExample;
 			sourceTree = "<group>";
 		};
 		60946B281748334600EFD1AE /* Supporting Files */ = {
@@ -415,7 +415,7 @@
 			dependencies = (
 			);
 			name = iOSCorePlotExample;
-			productName = BitCoinNotifier;
+			productName = iOSCorePlotExample;
 			productReference = 60946B1E1748334600EFD1AE /* iOSCorePlotExample.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -566,11 +566,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BitCoinNotifier/iOSCorePlotExample-Prefix.pch";
-				INFOPLIST_FILE = "BitCoinNotifier/iOSCorePlotExample-Info.plist";
+				GCC_PREFIX_HEADER = "iOSCorePlotExample/iOSCorePlotExample-Prefix.pch";
+				INFOPLIST_FILE = "iOSCorePlotExample/iOSCorePlotExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/BitCoinNotifier\"",
+					"\"$(SRCROOT)/iOSCorePlotExample\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iOSCorePlotExample;
@@ -582,11 +582,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BitCoinNotifier/iOSCorePlotExample-Prefix.pch";
-				INFOPLIST_FILE = "BitCoinNotifier/iOSCorePlotExample-Info.plist";
+				GCC_PREFIX_HEADER = "iOSCorePlotExample/iOSCorePlotExample-Prefix.pch";
+				INFOPLIST_FILE = "iOSCorePlotExample/iOSCorePlotExample-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/BitCoinNotifier\"",
+					"\"$(SRCROOT)/iOSCorePlotExample\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = iOSCorePlotExample;
